@@ -1,0 +1,16 @@
+# Estacionamento
+
+O projeto foi desenvolvido dentro do Bootcamp Spread FullStack Developer na plataforma da DIO.
+
+### Desenvolvimento
+
+O projeto foi desenvolvido para cadastrar os carros no pátio de um estacionamento e dar em minutos a pemanência deles no pátio.
+
+### Tecnologias usadas:
+
+- HTML5
+- TypeScript
+
+### Atualizações
+
+Em breve será adicionado um arquivo SASS para a melhorar a interface e dar uma cara mais agradável ao projeto.
