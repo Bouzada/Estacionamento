@@ -5,31 +5,38 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="./assets/css/style.css">
    <title>Estacionamento</title>
 </head>
 
 <body>
-   <input type="text" id="nome" placeholder="Digite o nome do veículo: " autocomplete="off">
-   <input type="text" id="placa" placeholder="Digite a plca do veículo: " autocomplete="off">
+   <div class="main">
+      <div class="cadastro">
+         <input class="input" type="text" id="nome" placeholder="Digite o nome do veículo: " autocomplete="off">
+         <input class="input" type="text" id="placa" placeholder="Digite a plca do veículo: " autocomplete="off">
 
-   <button id="cadastrar">Cadastrar o veículo</button>
+         <button class="btn" id="cadastrar">Cadastrar o veículo</button>
+      </div>
 
-   <table>
-      <thead>
-         <tr>
-            <th>Nome</th>
-            <th>Placa</th>
-            <th>Entrada</th>
-            <th>Ações</th>
-         </tr>
-      </thead>
+      <table class="table">
+         <thead class="tableHead">
+            <tr>
+               <th>Nome</th>
+               <th>Placa</th>
+               <th>Entrada</th>
+               <th>Ações</th>
+            </tr>
+         </thead>
 
-      <tbody id="patio">
+         <tbody id="patio">
 
-      </tbody>
-   </table>
+         </tbody>
+      </table>
 
-   <script src="./script.js"></script>
+   </div>
+   <script src="assets/js/script.js"></script>
 </body>
 
 </html>
