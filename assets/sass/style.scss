@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  width: 100%;
-  height: 100vh;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -22,7 +26,7 @@ body {
       justify-content: space-between;
 
       .input {
-        width: 15rem;
+        width: 20rem;
         height: 1.5rem;
         border: 1px solid #000;
         border-radius: .5rem;
@@ -31,7 +35,7 @@ body {
       }
 
       .btn {
-        padding: auto;
+        padding: 0 .5rem;
         border-radius: .5rem;
         font-weight: 600;
         border: 1px solid #000;
@@ -41,6 +45,18 @@ body {
           scale: 105%;
           cursor: pointer;
         }
+      }
+    }
+
+    .table {
+      min-height: 80vh;
+      width: 100%;
+
+      tr {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 1rem;
       }
     }
   }
